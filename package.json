@@ -1,0 +1,26 @@
+{
+  "name": "nasa-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently npm:watch:*",
+    "install-server": "cd ./server && npm install",
+    "install-client": "cd ./client && npm install",
+    "install": "npm run install-server && npm run install-client",
+    "watch:client": "cd client && npm start",
+    "watch:server": "cd server && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirubel25/Nasa-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirubel25/Nasa-Project/issues"
+  },
+  "homepage": "https://github.com/Kirubel25/Nasa-Project#readme"
+}
